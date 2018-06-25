@@ -1,0 +1,7 @@
+[package]
+name = "test-notify"
+version = "0.1.0"
+authors = ["Artus Rocha <artusrocha@gmail.com>"]
+
+[dependencies]
+notify-rust = "^3"
