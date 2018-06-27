@@ -1,7 +1,9 @@
 [package]
-name = "test-notify"
+name = "hello-notify"
 version = "0.1.0"
 authors = ["Artus Rocha <artusrocha@gmail.com>"]
 
 [dependencies]
 notify-rust = "^3"
+rocket = "0.3.14"
+rocket_codegen = "0.3.14"
