@@ -5,5 +5,12 @@ authors = ["Artus Rocha <artusrocha@gmail.com>"]
 
 [dependencies]
 notify-rust = "^3"
-rocket = "0.3.14"
+rocket = "^0.3"
 rocket_codegen = "0.3.14"
+serde = "^1"
+#serde_derive = "^1"
+#serde_json = "^1"
+
+[dependencies.rocket_contrib]
+default-features = false
+features = ["handlebars_templates"]
